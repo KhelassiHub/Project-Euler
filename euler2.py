@@ -24,7 +24,7 @@ def main():
 	for val in fibo:
 		if val%2==0:
 			somme = somme + val
-	print("le résultat exacte est 4613732, votre résultat est {}".format(somme))
+	print("The exact result is 4613732 while your answer is {}".format(somme))
 
 if __name__ == "__main__":
     # execute only if run as a script
