@@ -47,7 +47,7 @@ def main():
 	for premierTerme in range(0,8):
 		result=result*pow(primeListe[n],max(occurenceTimes[premierTerme::8]))
 		n+=1
-	print('le résultat est {}'.format(result))
+	print('The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is {}'.format(result))
 	
 if __name__ == "__main__":
     # execute only if run as a script
@@ -64,4 +64,4 @@ if __name__ == "__main__":
 #	9 = 3*3
 #	10 = 2*5
 #	2^(occurence of two)*3^(occurence of three)*5^(occurence of five)*7^(occurence of seven)
-#		2*2*2*2*3*3*5*7		=	2520
+#		2*2*2*2*3*3*5*7	= 2520
