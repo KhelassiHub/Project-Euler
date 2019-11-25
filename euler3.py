@@ -13,7 +13,7 @@ def main():
 			maxfact=n
 			n=n/div
 			if n==1:
-				print('The largest prime factor is {}'.format(maxfact))
+				print('The largest prime factor is {} '.format(maxfact))
 				ans=1
 				break
 
