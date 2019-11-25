@@ -8,7 +8,7 @@ def main():
 	for x in range(3,1000):
 		if x%3==0 or x%5==0:
 			a = a + x
-	print('The sum is {}'.format(a))
+	print('The sum is {} '.format(a))
 
 if __name__ == "__main__":
     # execute only if run as a script
