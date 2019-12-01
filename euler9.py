@@ -8,11 +8,11 @@
 # Find the product abc.
 
 from math import sqrt
-
 def main():
 	for i in range(1,500):
+		l=i*i 				# just to optimize the time
 		for x in range(i+1,500):
-			y= sqrt(pow(i,2)+pow(x,2))
+			y= sqrt(l+x*x)
 			result=i+x+y
 			if result==1000 and i<x:
 				print("{}+{}+{}=1000 their product is {}".format(i,x,y,i*x*y))
