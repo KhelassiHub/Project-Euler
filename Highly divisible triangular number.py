@@ -36,6 +36,6 @@ def main():
 		if b>=500:
 			print(f'number of divisors {b}, the Triangulare number {triangulareNumber}')
 			break
-
+ 
 if __name__ == '__main__':
 	main()
